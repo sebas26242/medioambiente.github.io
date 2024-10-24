@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid black; /* Borde negro de 5px */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    margin: 10px; /* Espaciado entre imágenes */
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #2e7d32;
+}
+
+.ruben{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.ruben img{
+    width: 250px;
+    height: 200px;
+    margin: 10px; /* Espaciado entre imágenes */
+}
